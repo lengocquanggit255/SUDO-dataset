@@ -12,6 +12,6 @@ The structure of the repository is presented as:
 ## Dependencies requirements:
 All the requirements are listed in file `requirements.txt`, simply install it by run the command:
 ```bash
-pip install -r requirements.txt
+pip install -r code/requirements.txt
 ```
 
