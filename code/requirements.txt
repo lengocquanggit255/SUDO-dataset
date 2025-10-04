@@ -1,0 +1,9 @@
+torch
+datasets
+huggingface-hub
+pandas
+numpy==1.26.4
+xgboost
+scikit-learn
+transformers[torch]
+fasttext-wheel
