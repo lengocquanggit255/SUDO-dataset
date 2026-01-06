@@ -1,8 +1,7 @@
 ## Overview
 This repository contains implementations and data. The proposed abstractive summarization model shown in the following Figure
 
-<img width="825" height="760" alt="image" src="https://github.com/user-attachments/assets/5c473e04-b90d-427e-955b-ccd250ab1844" />
-
+<img width="3363" height="2121" alt="model_baselines_05012026" src="https://github.com/user-attachments/assets/6a2e7cff-2682-4b6f-b1f4-9192c49abcb4" />
 
 ## Structure of the Repository
 The structure of the repository is presented as:
