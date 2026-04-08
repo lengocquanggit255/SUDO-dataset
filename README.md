@@ -33,6 +33,12 @@ This dataset contains comparative reviews between two different beers by the sam
   - `aromaRate_2`: Rating for aroma.
   - `palateRate_2`: Rating for palate/mouthfeel.
   - `tasteRate_2`: Rating for taste.
+- **Comparison Labels:**
+  - `appearance`: Categorical labels, (0 - equal, 1 - reviewText_1 better than reviewText_2, -1 - reviewText_1 worse than reviewText_2, null - cannot compare).
+  - `aroma`: Categorical labels, (0 - equal, 1 - reviewText_1 better than reviewText_2, -1 - reviewText_1 worse than reviewText_2, null - cannot compare).
+  - `palate`: Categorical labels, (0 - equal, 1 - reviewText_1 better than reviewText_2, -1 - reviewText_1 worse than reviewText_2, null - cannot compare).
+  - `taste`: Categorical labels, (0 - equal, 1 - reviewText_1 better than reviewText_2, -1 - reviewText_1 worse than reviewText_2, null - cannot compare)
+
 
 ### 2. Sentences Data (`data/sentences/beer-com-sentences_*.csv`)
 This dataset breaks down the reviews into individual sentences and includes specific aspect sentiment labels.
@@ -43,7 +49,7 @@ This dataset breaks down the reviews into individual sentences and includes spec
 - `beerStyle`: Style/category of the beer.
 - `reviewSentence`: A single sentence extracted from the full review.
 - `appearanceRate`, `aromaRate`, `palateRate`, `tasteRate`: The overall aspect ratings given by the user for this beer.
-- `appearance`, `aroma`, `palate`, `taste`: Binary/Categorical labels indicating whether the current `reviewSentence` discusses these specific aspects (e.g., 1 if the sentence talks about aroma, 0 otherwise).
+- `appearance`, `aroma`, `palate`, `taste`: Binary labels indicating whether the current `reviewSentence` discusses these specific aspects (e.g., 1 if the sentence talks about aroma, 0 otherwise).
 
 ## Dependencies requirements:
 All the requirements are listed in file `requirements.txt`, simply install it by run the command:
