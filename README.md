@@ -24,7 +24,15 @@ This dataset contains comparative reviews between two different beers by the sam
   - `palateRate_1`: Rating for palate/mouthfeel.
   - `tasteRate_1`: Rating for taste.
 - **Beer 2 Features (Suffix `_2`):**
-  - Contains the exact same structure as Beer 1 (`beerName_2`, `beerId_2`, `reviewText_2`, etc.) for the second beer being compared.
+  - `beerName_2`: Name of the first beer.
+  - `beerId_2`: Unique identifier for the first beer.
+  - `beerABV_2`: Alcohol By Volume (ABV) of the first beer.
+  - `beerStyle_2`: Style/category of the first beer.
+  - `reviewText_2`: The full text review written by the user for the first beer.
+  - `appearanceRate_2`: Rating for appearance.
+  - `aromaRate_2`: Rating for aroma.
+  - `palateRate_2`: Rating for palate/mouthfeel.
+  - `tasteRate_2`: Rating for taste.
 
 ### 2. Sentences Data (`data/sentences/beer-com-sentences_*.csv`)
 This dataset breaks down the reviews into individual sentences and includes specific aspect sentiment labels.
