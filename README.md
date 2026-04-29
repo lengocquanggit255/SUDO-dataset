@@ -57,12 +57,17 @@ All the requirements are listed in file `requirements.txt`, simply install it by
 pip install -r code/requirements.txt
 ```
 
-## Citation:
+## Citation
+If you use this dataset or benchmark, please cite our paper:
 
-@article{nguyen2026comparing,
-  title={Comparing Without Saying: A Dataset and Benchmark for Implicit Comparative Opinion Mining from Same-User Reviews},
-  author={Nguyen, Thanh-Lam T and Le, Ngoc-Quang and Phu, Quoc-Trung and Le, Thi-Phuong and Pham, Ngoc-Huyen and Nguyen, Phuong-Nguyen and Le, Hoang-Quynh},
-  journal={arXiv preprint arXiv:2601.13575},
-  year={2026}
+```bibtex
+@misc{nguyen2026comparing,
+  title        = {Comparing Without Saying: A Dataset and Benchmark for Implicit Comparative Opinion Mining from Same-User Reviews},
+  author       = {Nguyen, Thanh-Lam T. and Le, Ngoc-Quang and Phu, Quoc-Trung and Le, Thi-Phuong and Pham, Ngoc-Huyen and Nguyen, Phuong-Nguyen and Le, Hoang-Quynh},
+  year         = {2026},
+  eprint       = {2601.13575},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.CL},
+  doi          = {10.48550/arXiv.2601.13575},
+  url          = {https://arxiv.org/abs/2601.13575}
 }
-
