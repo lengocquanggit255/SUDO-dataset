@@ -56,3 +56,13 @@ All the requirements are listed in file `requirements.txt`, simply install it by
 ```bash
 pip install -r code/requirements.txt
 ```
+
+## Citation:
+
+@article{nguyen2026comparing,
+  title={Comparing Without Saying: A Dataset and Benchmark for Implicit Comparative Opinion Mining from Same-User Reviews},
+  author={Nguyen, Thanh-Lam T and Le, Ngoc-Quang and Phu, Quoc-Trung and Le, Thi-Phuong and Pham, Ngoc-Huyen and Nguyen, Phuong-Nguyen and Le, Hoang-Quynh},
+  journal={arXiv preprint arXiv:2601.13575},
+  year={2026}
+}
+
